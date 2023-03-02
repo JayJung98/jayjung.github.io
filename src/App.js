@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './components/js/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header/>
         <img src="./images/yang01.jpg" className="App-logo" />
         <p>
           test start
@@ -16,7 +17,6 @@ function App() {
         >
           Learn React
         </a> */}
-      </header>
     </div>
   );
 }

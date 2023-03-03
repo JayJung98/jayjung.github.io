@@ -10,6 +10,18 @@ function Header() {
             <div className="title">
                 Jay's Note
             </div>
+            <div className="menu">
+                About Me
+            </div>
+            <div className="menu">
+                Posts
+            </div>
+            <div className="menu">
+                Category
+            </div>
+            <div className="menu">
+                Search
+            </div>
         </div>
     );
 }

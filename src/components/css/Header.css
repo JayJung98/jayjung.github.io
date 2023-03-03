@@ -1,0 +1,21 @@
+.header {
+    height: 60px;
+    display: flex;
+    width: '100%';
+    align-items: center;
+    background-color: black;
+    position: sticky;
+}
+.title {
+    color: white;
+    padding-left: 200px;
+    font-size: large;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu {
+    display: flex;
+    color: white;
+    white-space:nowrap;
+    margin-left: 20px;
+}

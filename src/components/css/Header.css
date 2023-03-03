@@ -13,10 +13,14 @@
     font-size: large;
     font-weight: 900;
 }
-.menu {
+.menus {
+    display: flex;
+    float: right;
     color: black;
     margin-left:auto;
     font-weight: 600;
-    margin-left: auto;
     margin-right: 100px;
+}
+.menu {
+    padding-right: 20px;
 }

@@ -3,19 +3,20 @@
     display: flex;
     width: '100%';
     align-items: center;
-    background-color: black;
+    background-color: white;
     position: sticky;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .title {
-    color: white;
+    color: black;
     padding-left: 200px;
     font-size: large;
     font-weight: 900;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .menu {
-    display: flex;
-    color: white;
-    white-space:nowrap;
-    margin-left: 20px;
+    color: black;
+    margin-left:auto;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 100px;
 }

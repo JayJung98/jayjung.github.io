@@ -1,0 +1,14 @@
+.footer {
+    height: 60px;
+    width: '100%';
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+.jfloww {
+    font-family: cursive;
+    font-weight: 100;
+    font-size: small;
+    padding-top: 20px;
+}

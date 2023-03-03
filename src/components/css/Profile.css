@@ -1,0 +1,12 @@
+.profile {
+    min-height: 3.5rem;
+    max-height: 3.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 3px 3px;
+}
+.pro_menu {
+    padding-right: 5px;
+}

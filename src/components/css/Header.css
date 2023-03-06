@@ -5,11 +5,13 @@
     align-items: center;
     background-color: white;
     position: sticky;
+    top: 0;
+    z-index: 100;  /*겹치는 부분이 있을때 누가 위해 있을 것인가 -1 ~ 1000, 높을 수록 위에있는다*/
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .title {
     color: black;
-    padding-left: 200px;
+    padding-left: 15%;
     font-size: large;
     font-weight: 900;
 }
@@ -19,7 +21,7 @@
     color: black;
     margin-left:auto;
     font-weight: 600;
-    margin-right: 100px;
+    margin-right: 10%;
 }
 .menu {
     padding-right: 20px;

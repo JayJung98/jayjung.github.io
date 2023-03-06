@@ -1,13 +1,21 @@
 .profile {
-    min-height: 3.5rem;
-    max-height: 3.5rem;
-    background-color: white;
-    display: flex;
+    height: 3rem;
+    width: 100%;
     align-items: center;
+    background-color: rgb(200, 228, 231);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 3px 3px;
 }
 .pro_menu {
-    text-align: center;
-    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 37%;
+}
+.icon {
+    align-items: center;
+    color: rgba(7, 48, 83, 0.397);
+    padding-left: 20px;
+}
+.text {
+    font-weight: 500;
 }

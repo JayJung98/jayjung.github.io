@@ -4,7 +4,7 @@ import '../css/Main.css'
 function main() {
     return (
         <div className='main'>
-            This is intro page!
+            Blog Introducing
         </div>
     );
 }

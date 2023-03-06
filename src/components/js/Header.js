@@ -3,26 +3,26 @@ import '../css/Header.css'
 
 function Header() {
     function titleClick() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.location.reload();
     }
     return (
         <div className="header">
-            <div className="title">
+            <sapn className='title' onClick={ titleClick }>
                 Jay's Note
-            </div>
+            </sapn>
             <div className="menus">
-                <div className="menu">
+                <a className="menu" href='/aboutme'>
                     About Me
-                </div>
-                <div className="menu">
+                </a>
+                <a className="menu" href='/posts'>
                     Posts
-                </div>
-                <div className="menu">
+                </a>
+                <a className="menu" href='/category'>
                     Category
-                </div>
-                <div className="menu">
+                </a>
+                <a className="menu" href='/search'>
                     Search
-                </div>
+                </a>
             </div>
         </div>
     );

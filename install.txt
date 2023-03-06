@@ -1,2 +1,2 @@
 npm install @mui/material @emotion/react @emotion/styled // material ui
-npm install @mui/icons-material @mui/material @emotion/styled @emotion/react // material icons
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react // material icons (https://mui.com/material-ui/material-icons/?query=email)

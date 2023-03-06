@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Portfolio from '@mui/icons-material/Newspaper';
 import EmailIcon from '@mui/icons-material/Email';
-
+import Instagram from '@mui/icons-material/Instagram';
 function profile() {
     return (
         <div className='profile'>
@@ -20,6 +20,10 @@ function profile() {
                 <Portfolio className='icon'/>
                 <a className='text' href="https://www.jfloww.com">
                     Portfolio
+                </a>
+                <Instagram className='icon'/>
+                <a className='text' href="https://www.instagram.com/jaehoon_jung98/">
+                    Instagram
                 </a>
                 <EmailIcon className='icon'/>
                 <a className='text' href="/contact">

@@ -1,19 +1,35 @@
 .main {
+    margin: 0 10px;
     padding-top: 20px;
     text-align: center;
     background-image:url('../../../public/images/test_photo.jpg') ;
     background-size: 100% 100%;
-    height: 45rem;
+    height: 70rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    border-radius: 4%;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 1rem;
+    grid-template-areas:
+      'a a a'
+      'b c c'
+      'c c c'
+      'd d d'
+      'e f g';
+}
+
 .main_left {
-    float: left;
-    margin-left: 5%;
+    grid-area: b;
     color: black;
 }
 .main_photo {
     width: 250px;
-    border-radius: 30%;
+    border-radius: 15%;
 }
 .main_name {
     font-weight: 600;
@@ -23,6 +39,7 @@
 }
 
 .side_text {
+    grid-area: b;
     font-weight: 700;
     font-size: 4em;
 }

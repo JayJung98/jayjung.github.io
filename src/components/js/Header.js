@@ -1,5 +1,6 @@
 import React from "react";
-import '../css/Header.css'
+import '../css/Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
     function titleClick() {
@@ -7,14 +8,16 @@ function Header() {
     }
     return (
         <div className="header">
-            <sapn className='title' onClick={ titleClick }>
-                Jay's Note
-            </sapn>
+            <Link to = '/' className="title">Jay</Link>
             <div className="menus">
-                <a className="menu" href='/aboutme'>
+                {/* <a className="menu" href='/aboutme'>
                     About Me
-                </a>
-                <a className="menu" href='/posts'>
+                </a> */}
+                <Link to = '/aboutme' className="menus">AboutMe</Link>
+                <Link to = '/posts' className="menus">Posts</Link>
+                <Link to = '/category' className="menus">Category</Link>
+                <Link to = '/search' className="menus">Search</Link>
+                {/* <a className="menu" href='/posts'>
                     Posts
                 </a>
                 <a className="menu" href='/category'>
@@ -22,7 +25,7 @@ function Header() {
                 </a>
                 <a className="menu" href='/search'>
                     Search
-                </a>
+                </a> */}
             </div>
         </div>
     );

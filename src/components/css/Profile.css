@@ -2,7 +2,7 @@
     height: 3rem;
     width: 100%;
     align-items: center;
-    background-color: rgb(200, 228, 231);
+    background-color: rgb(255, 255, 255);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .pro_menu {
@@ -18,4 +18,5 @@
 }
 .text {
     font-weight: 500;
+    text-decoration: none;
 }

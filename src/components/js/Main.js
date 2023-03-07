@@ -19,7 +19,7 @@ function main() {
                 <div className='small_box2'>
                     recent project or IT news
                 </div>
-                <a className='small_box3' href='https://github.com/jfloww/jfloww.github.io'>
+                <a className='small_box3' href='https://github.com/jfloww/jfloww.github.io' target='_blank'>
                     download this theme
                 </a>
             </div>

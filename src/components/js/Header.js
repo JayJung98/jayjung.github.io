@@ -13,10 +13,10 @@ function Header() {
                 {/* <a className="menu" href='/aboutme'>
                     About Me
                 </a> */}
-                <Link to = '/aboutme' className="menus">AboutMe</Link>
-                <Link to = '/posts' className="menus">Posts</Link>
-                <Link to = '/category' className="menus">Category</Link>
-                <Link to = '/search' className="menus">Search</Link>
+                <Link to = '/aboutme' className="menu">About Me</Link>
+                <Link to = '/posts' className="menu">Posts</Link>
+                <Link to = '/category' className="menu">Category</Link>
+                <Link to = '/search' className="menu">Search</Link>
                 {/* <a className="menu" href='/posts'>
                     Posts
                 </a>

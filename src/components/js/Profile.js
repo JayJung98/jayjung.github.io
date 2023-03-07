@@ -10,23 +10,23 @@ function profile() {
         <div className='profile'>
             <div className='pro_menu'>
                 <GitHubIcon className="icon"/>
-                <a className='text' href="https://github.com/jfloww">
+                <a className='text' href="https://github.com/jfloww" target='_blank'>
                     GitHub
                 </a>
                 <LinkedInIcon className='icon'/>
-                <a className='text' href="https://www.linkedin.com/in/jfloww/">
+                <a className='text' href="https://www.linkedin.com/in/jfloww/" target='_blank'>
                     LinkedIn
                 </a>
                 <Portfolio className='icon'/>
-                <a className='text' href="https://www.jfloww.com">
+                <a className='text' href="https://www.jfloww.com" target='_blank'>
                     Portfolio
                 </a>
                 <Instagram className='icon'/>
-                <a className='text' href="https://www.instagram.com/jaehoon_jung98/">
+                <a className='text' href="https://www.instagram.com/jaehoon_jung98/" target='_blank'>
                     Instagram
                 </a>
                 <EmailIcon className='icon'/>
-                <a className='text' href="/contact">
+                <a className='text' href="/contact" >
                     Contact
                 </a>
             </div>

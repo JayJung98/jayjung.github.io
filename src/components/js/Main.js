@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Main.css'
 import Profile from './Profile';
+import { Link } from 'react-router-dom';
 
 function main() {
     return (
@@ -10,15 +11,17 @@ function main() {
             </div>
             <Profile className='profile'/>
             <div className='container'>
-                <div className='small_box1'>
-                    about me
-                </div>
+                <Link to = '/aboutme' className='small_box1'>
+                        <br/>Jay (Jaehoon) Jung<br/>
+                        Software & Data Engineer
+                        <hr/>
+                </Link>
                 <div className='small_box2'>
-                    recent porject
+                    recent project or IT news
                 </div>
-                <div className='small_box3'>
+                <a className='small_box3' href='https://github.com/jfloww/jfloww.github.io'>
                     download this theme
-                </div>
+                </a>
             </div>
         </div>
     );

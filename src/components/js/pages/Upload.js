@@ -2,12 +2,9 @@ import React, { useState, useEffect } from 'react';
 import MarkDown from 'markdown-to-jsx';
 
 
-function Upload( { location, title, date } ) {
-    const requireContext = require.context('../../posts', false, /\.md$/);
-    const files = requireContext.keys();
-    const newFiles = files.map((fileName) => fileName.replace('./', ''));
+function Upload( { file, title, date } ) {
 
-    const file_name = newFiles[0];
+    const file_name = file;
     const [post, setPost] = useState('');
 
     useEffect(() => {
@@ -22,7 +19,6 @@ function Upload( { location, title, date } ) {
 
     return (
         <div>
-            { console.log(newFiles) }
         </div>
     );
 }

@@ -1,3 +1,4 @@
+mui:
 npm install @mui/material @emotion/react @emotion/styled // material ui
 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react // material icons (https://mui.com/material-ui/material-icons/?query=email)
 
@@ -5,4 +6,8 @@ Router:
 npm install react-router-dom
 
 md:
-npm install react-markdown
+npm install --save markdown-to-jsx
+
+import all files:
+npm install require-context --save-dev
+

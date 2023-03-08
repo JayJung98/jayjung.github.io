@@ -1,0 +1,20 @@
+.post_container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33rem;
+    grid-template-areas:
+      'a b b b';
+}
+
+.post_box {
+    grid-area: b;
+    border-color: red;
+    border-width: 3px;
+    border-style: dotted;
+}
+.sidebar {
+    grid-area: a;
+    border-color: blue;
+    border-width: 3px;
+    border-style: dotted;
+}

@@ -3,7 +3,7 @@ import Footer from '../Footer';
 import Sidebar from '../Sidebar';
 import Upload from './Upload';
 import '../../css/pages/Posts.css'
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 
 function Posts() {

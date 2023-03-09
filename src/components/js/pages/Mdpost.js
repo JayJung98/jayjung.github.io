@@ -5,7 +5,7 @@ import MarkDown from 'markdown-to-jsx';
 
 function Mdpost( file ) {
 
-    const file_name = file;
+    const file_name = 'test.md';
 
     const [post, setPost] = useState('');
     useEffect(() => {

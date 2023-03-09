@@ -1,24 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import MarkDown from 'markdown-to-jsx';
+import '../../css/pages/Upload.css'
+import { Link } from 'react-router-dom';
+import Mdpost from './Mdpost';
 
-
-function Upload( { file, title, date } ) {
+function Upload( { file, title } ) {
 
     const file_name = file;
-    const [post, setPost] = useState('');
+    title = file_name.replace('.md', '');
 
-    useEffect(() => {
-        import(`../../posts/${file_name}`)
-        .then((res) => {
-            fetch(res.default)
-                .then(res => res.text())
-                .then(res => setPost(res));
-        })
-        .catch((err) => console.log(err));
-    });
 
     return (
         <div>
+        <Link to={`/posts/${ title }`} className='list'><h1>{ title }</h1>
+            {/* <Mdpost/> */}
+        </Link>
+            
         </div>
     );
 }

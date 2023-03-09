@@ -10,6 +10,12 @@ function homepage() {
             <Header/>
             <Main/>
     
+
+            <Footer/>
+         </div>
+    );
+}
+export default homepage;
             {/* <img src="./images/yang01.jpg" className="App-logo" /> */}
             {/* <a
             className="App-link"
@@ -19,8 +25,3 @@ function homepage() {
             >
             Learn React
             </a> */}
-            <Footer/>
-         </div>
-    );
-}
-export default homepage;

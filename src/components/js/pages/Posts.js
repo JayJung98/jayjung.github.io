@@ -11,19 +11,22 @@ function Posts() {
     const files = requireContext.keys();
     const newFiles = files.map((fileName) => fileName.replace('./', ''));
 
-    const file_name = newFiles[0];
-    const [post, setPost] = useState('');
-
     return (
         <div className='posts'>
             <Header />
-                <div className='post_container'>
+            <div className='post_container'>
                 <Sidebar className='sidebar' />
 
                 <div className='post_box'>
-                    <Upload file={ file_name } title={ file_name } date={ new Date() }/>
+                    { newFiles.map((file, index) => {
+                            return (
+                                <div key={index}>
+                                    <Upload file={ file } title={ file } />
+                                </div>
+                            );}) 
+                    }
                 </div>
-
+                
             </div>
             <Footer />
         </div>

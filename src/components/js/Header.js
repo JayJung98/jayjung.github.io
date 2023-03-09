@@ -14,18 +14,9 @@ function Header() {
                     About Me
                 </a> */}
                 <Link to = '/aboutme' className="menu">About Me</Link>
-                <Link to = '/posts' className="menu">Posts</Link>
+                <Link to = '/post' className="menu">Posts</Link>
                 <Link to = '/category' className="menu">Category</Link>
                 <Link to = '/search' className="menu">Search</Link>
-                {/* <a className="menu" href='/posts'>
-                    Posts
-                </a>
-                <a className="menu" href='/category'>
-                    Category
-                </a>
-                <a className="menu" href='/search'>
-                    Search
-                </a> */}
             </div>
         </div>
     );

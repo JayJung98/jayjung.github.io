@@ -1,0 +1,13 @@
+.posting_container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33rem;
+    grid-template-areas:
+      'a b b b';
+}
+.posting_sidebar {
+    grid-area: a;
+}
+.posting_post {
+    grid-area: b;
+}

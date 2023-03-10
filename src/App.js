@@ -18,8 +18,7 @@ function App() {
         <Route exact path="/" element={ <Homepage /> } />
         <Route exact path="/aboutme" element={ <Aboutme/> } />
         <Route exact path="/posts" element={ <Posts/> }></Route>
-        <Route exact path="/posts/test" element={ <Mdpost />} />
-        
+        <Route exact path="/posts/:test" element={ <Mdpost />} />
         <Route exact path="/category" element={ <Category/> } />
         <Route exact path="/search" element={ <Search/> } />
         

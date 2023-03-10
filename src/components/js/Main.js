@@ -7,7 +7,7 @@ function main() {
     return (
         <div className='main'>
             <div className='big_box'>
-                Recent posts (top 5)
+                <img className='test_image' src='/images/test_photo.jpg' />
             </div>
             <Profile className='profile'/>
             <div className='container'>

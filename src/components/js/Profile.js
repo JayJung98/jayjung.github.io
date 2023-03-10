@@ -5,30 +5,32 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Portfolio from '@mui/icons-material/Newspaper';
 import EmailIcon from '@mui/icons-material/Email';
 import Instagram from '@mui/icons-material/Instagram';
+import { Link } from 'react-router-dom';
+
 function profile() {
     return (
         <div className='profile'>
             <div className='pro_menu'>
-                <GitHubIcon className="icon"/>
-                <a className='text' href="https://github.com/jfloww" target='_blank'>
+                <GitHubIcon className="icon" />
+                <Link to ="https://github.com/jfloww" className='text' target='_blank'>
                     GitHub
-                </a>
-                <LinkedInIcon className='icon'/>
-                <a className='text' href="https://www.linkedin.com/in/jfloww/" target='_blank'>
+                </Link>
+                <LinkedInIcon className='icon' />
+                <Link to = "https://www.linkedin.com/in/jfloww/" className='text' target='_blank'>
                     LinkedIn
-                </a>
-                <Portfolio className='icon'/>
-                <a className='text' href="https://www.jfloww.com" target='_blank'>
+                </Link>
+                <Portfolio className='icon' />
+                <Link to = "https://www.jfloww.com" className='text' target='_blank'>
                     Portfolio
-                </a>
-                <Instagram className='icon'/>
-                <a className='text' href="https://www.instagram.com/jaehoon_jung98/" target='_blank'>
+                </Link>
+                <Instagram className='icon' />
+                <Link to = "https://www.instagram.com/jaehoon_jung98/" className='text' target='_blank'>
                     Instagram
-                </a>
-                <EmailIcon className='icon'/>
-                <a className='text' href="/contact" >
+                </Link>
+                <EmailIcon className='icon' />
+                <Link to = "/contact" className='text'>
                     Contact
-                </a>
+                </Link>
             </div>
         </div>
     );

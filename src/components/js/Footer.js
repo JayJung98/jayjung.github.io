@@ -13,7 +13,7 @@ function footer() {
             <div className='jfloww'>
                 2023 @ jfloww. Crafted & Designed by Jaehoon Jung
             </div>
-            <div clasname='footer_link'>
+            <div className='link_box'>
                 <GitHubIcon className="footer_icon" />
                 <Link to ="https://github.com/jfloww" className='footer_text' target='_blank'>
                     GitHub

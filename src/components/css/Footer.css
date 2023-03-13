@@ -3,35 +3,21 @@
     width: 100%;
     align-items: center;
     background-color: white;
-    position: fixed;
+    position:fixed;
     bottom: 0;
-    display: flex;
-    border-color: green;
-    border-width: 3px;
-    border-style: dotted;    
+    display: flex; 
 }
 .jfloww {
     font-family: cursive;
     font-size: small;
     font-weight: 100;
-    border-color: black;
-    border-width: 3px;
-    border-style: dotted;
 }
-.footer_link {
-    border-color: purple;
-    border-width: 3px;
-    border-style: dotted;    
+.link_box {
+    padding-left: 20%; 
 }
 .footer_icon {
-    font-size: large;
-    border-color: red;
-    border-width: 3px;
-    border-style: dotted;  
+    font-size: large; 
 }
 .footer_text {
-    border-color: blue;
-    border-width: 3px;
-    border-style: dotted;
     text-decoration: none;
 }

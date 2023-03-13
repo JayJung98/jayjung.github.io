@@ -13,7 +13,7 @@
     font-weight: 100;
 }
 .link_box {
-    padding-left: 20%; 
+    float: right;
 }
 .footer_icon {
     font-size: large; 

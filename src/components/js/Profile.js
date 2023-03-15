@@ -20,8 +20,8 @@ function profile() {
                     LinkedIn
                 </Link>
                 <Portfolio className='icon' />
-                <Link to = "https://www.jfloww.com" className='text' target='_blank'>
-                    Portfolio
+                <Link to = "https://jfloww.github.io/" className='text' target='_blank'>
+                    Blog
                 </Link>
                 <Instagram className='icon' />
                 <Link to = "https://www.instagram.com/jaehoon_jung98/" className='text' target='_blank'>

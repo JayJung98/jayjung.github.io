@@ -23,8 +23,8 @@ function footer() {
                     LinkedIn
                 </Link>
                 <Portfolio className='footer_icon' />
-                <Link to = "https://www.jfloww.com" className='footer_text' target='_blank'>
-                    Portfolio
+                <Link to = "https://jfloww.github.io/" className='footer_text' target='_blank'>
+                    Blog
                 </Link>
                 <Instagram className='footer_icon' />
                 <Link to = "https://www.instagram.com/jaehoon_jung98/" className='footer_text' target='_blank'>

@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 permalink: /categories/coding/
 title: "Coding"
 author_profile: true

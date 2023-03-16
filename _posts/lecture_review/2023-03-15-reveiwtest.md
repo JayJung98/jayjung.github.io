@@ -2,7 +2,7 @@
 layout: single
 title:  "Test"
 categories: lecture_review
-tag: [python, leetcode]
+tag: [review]
 toc: true
 author_profile: false
 sidebar:

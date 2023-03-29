@@ -23,8 +23,8 @@ docs:
        url: /categories/leetcode/
      - title: "Coding"
        url: /categories/coding/
-     - title: "LectureReview"
-       url: /categories/lecture_review/
+     - title: "Technology"
+       url: /categories/technology/
   - title: "Tag"
     children:
      - title: "Tag"

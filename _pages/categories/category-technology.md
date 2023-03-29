@@ -1,13 +1,13 @@
 ---
 layout: archive
-permalink: /categories/lecture_review/
-title: "Lecture Review"
+permalink: /categories/technology/
+title: "Technology"
 author_profile: true
 sidebar_main: true
 search : false
 sidebar:
     nav: "docs"
 ---
-{% assign posts = site.categories.lecture_review | sort:"date" | reverse %}
+{% assign posts = site.categories.technology | sort:"date" | reverse %}
 
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

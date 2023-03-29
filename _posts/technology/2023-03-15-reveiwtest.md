@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Test"
-categories: lecture_review
+categories: technology
 tag: [review]
 toc: true
 author_profile: false

@@ -25,6 +25,8 @@ docs:
        url: /categories/coding/
      - title: "Technology"
        url: /categories/technology/
+     - title: "Weekly"
+       url: /categories/weekly/
   - title: "Tag"
     children:
      - title: "Tag"

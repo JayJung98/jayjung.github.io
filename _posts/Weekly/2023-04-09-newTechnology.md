@@ -9,14 +9,11 @@ sidebar:
     nav: "docs"
 ---
 
-
 # [Story of PD] How to adapt new meta
 
-As times goes by, new technologies are rapidly emerging. As a software engineer, I have to study and adapt to new technologies.
-After watching this video, I realized that I needed to know how to use the new technology efficiently. I also have to find what I'm good at to take advantage of new technologies. <br>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/lsEda2y4wWo" frameborder="0" allowfullscreen></iframe> <br>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/lsEda2y4wWo" frameborder="0" allowfullscreen></iframe>
-<br>
-The video is about one of the successful TV program producers in Korea. He knows that if he repeats the same type of the program, the viewers will drift away, and then the program will lose more and more power. He repeated his best form of tv shows, but added new ideas little by little, providing viewers with new experiences. As a result, the programs he produced became successful, and this experience gave me a new idea. By adding 20 percent of new things from what he's good at, he made new changes, which led to success. I need to know what I'm good at, and find what I want to do and develop my career. Currently, I don't know what I'm good at. But I know what I want to do. I should continue to study data science (data visualization, machine learning, deep learning) or web development. It should also be clear where I am good at.
-Moreover, the PD said, with the emergence of new Over-the-top media service (OTT) platforms such as YouTube and Netflix, when people started not watching TV, he began to use the OTTs. We need the ability to utilize new technologies.
-I also wondered if chatGPT would appear and developers would disappear, but I should study how to use chatGPT in the good way and make a better project using artificial intelligence with my ideas.
+
+As a software engineer, it's important to constantly learn and adapt to new technologies. I recently watched a video about a successful TV program producer in Korea who recognized the importance of introducing new ideas and experiences to keep viewers engaged, rather than repeating the same type of shows which would cause them to lose interest. The producer also realized that the ever-decreasing ratings were due to the development of new technologies such as OTT platforms like YouTube and Netflix, and found ways to use these technologies to his advantage. This taught me the importance of identifying what I'm good at and finding ways to incorporate new technologies to drive success in my career. <br>
+
+To start, I need to identify my strengths and set goals to constantly develop my skills in my field. While I am currently studying web development or data science, I should always keep an open mind and be willing to explore other areas as well. It's also important to not be afraid of new technologies, but instead find ways to incorporate them into my work. For example, the advent of ChatGPT has sparked discussions among developers about its potential to improve projects by identifying errors in coding. I can use this tool to not only find errors, but also to enhance my ideas and create more complete projects. By adding just 20 percent of new things to what I'm already good at, I can make significant changes that lead to success.
